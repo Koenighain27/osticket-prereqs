@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-Alright, welcome to the tutorial! To start, we'll need to create a virtual machine using Microsoft Azure. Feel free to name the VM anything you want, as long as it makes sense to you. The VM should be running Windows 10 and have at least 2-4 vcpus so that the VM will run smoothly.
+Welcome to the tutorial! To start, we'll need to create a virtual machine using Microsoft Azure. Feel free to name the VM anything you want, as long as it makes sense to you. The VM should be running Windows 10 and have at least 2-4 vcpus so that the VM will run smoothly.
 <p>
 <img src="https://imgur.com/O2lgWbL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -51,7 +51,8 @@ Once connected to the VM, go to control panel--> uninstall or change a program--
 </p>
 <br />
 
-After applying the changes, we'll need to download a few things so OSticket can run on the VM. Click this link to download the necessary files: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 . First, download and install PHP Manager for IIS and rewrite moduel. Make sure to download the files on the Google Drive through your VM and not on your own computer. After downloading, create the directory C:\PHP.
+After applying the changes, we'll need to download a few things so osTicket can run on the VM. Click this link to download the necessary files: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 
+First, download and install PHP Manager for IIS and rewrite module. Make sure to download the files on the Google Drive through your VM and not on your own computer. After downloading, create the directory C:\PHP.
 <p>
 <img src="https://imgur.com/otghrd5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -83,7 +84,7 @@ Great, now go to the start menu and type IIS and right click it, then click "Run
 </p>
 <br />
 
-Next, download the OSticket file from the installation files. We're going to copy the "upload" folder to c:\inetpub\wwwroot. Then rename the "upload" folder to "osTicket". Open IIS, and stop and start the server. In IIS, click Sites-> Default-> osticket. On the right, click "Browse*:80"
+Next, download the osTicket file from the installation files. We're going to copy the "upload" folder to c:\inetpub\wwwroot. Then rename the "upload" folder to "osTicket". Open IIS, and stop and start the server. In IIS, click Sites-> Default-> osticket. On the right, click "Browse*:80"
 
 <p>
 <img src="https://imgur.com/xrWaVci.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
